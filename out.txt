@@ -1,0 +1,177 @@
+action to be performed: edge indiagate chanakyapuri 30
+action to be performed: edge indiagate AIIMS 30
+action to be performed: edge indiagate lajpatnagar 50
+action to be performed: edge chanakyapuri AIIMS 20
+action to be performed: edge AIIMS lajpatnagar 15
+action to be performed: edge chanakyapuri iitmaingate 50
+action to be performed: edge AIIMS iitmaingate 30
+action to be performed: edge lajpatnagar iitmaingate 40
+action to be performed: taxi shaktimaan iitmaingate
+action to be performed: taxi batman lajpatnagar
+action to be performed: taxi superman indiagate
+
+
+
+
+
+
+action to be performed: printTaxiPosition 0
+
+shaktimaan: (iitmaingate, iitmaingate, 0)
+batman: (lajpatnagar, lajpatnagar, 0)
+superman: (indiagate, indiagate, 0)
+
+
+
+At time 0, shaktimaan chooses a new destination indiagate
+At time 0, batman chooses a new destination AIIMS
+At time 0, superman chooses a new destination lajpatnagar
+
+
+
+action to be performed: customer iitmaingate lajpatnagar 0 chanakyapuri indiagate 0 1
+Available Taxis:
+Path of shaktimaan: (iitmaingate, AIIMS, 1)----iitmaingate, iitmaingate----(iitmaingate, lajpatnagar, 0). time taken is 1 units.
+Path of batman: (lajpatnagar, AIIMS, 1)----lajpatnagar, iitmaingate----(iitmaingate, lajpatnagar, 0). time taken is 41 units.
+Path of superman: (indiagate, AIIMS, 1)----AIIMS, iitmaingate----(iitmaingate, lajpatnagar, 0). time taken is 59 units.
+** Chose shaktimaan to service the customer request***
+Path of customer: (iitmaingate, lajpatnagar, 0)----iitmaingate, chanakyapuri----(chanakyapuri, indiagate, 0). time taken is 50 units.
+
+
+
+At time 15, batman chooses a new destination chanakyapuri
+At time 35, batman chooses a new destination iitmaingate
+At time 45, superman chooses a new destination AIIMS
+
+
+
+action to be performed: customer chanakyapuri indiagate 0  chanakyapuri AIIMS 19 52
+Available Taxis:
+Path of shaktimaan: (chanakyapuri, indiagate, 0)----chanakyapuri, chanakyapuri----(chanakyapuri, indiagate, 0). time taken is 0 units.
+Path of batman: (chanakyapuri, iitmaingate, 17)----chanakyapuri, chanakyapuri----(chanakyapuri, indiagate, 0). time taken is 17 units.
+Path of superman: (lajpatnagar, AIIMS, 7)----AIIMS, chanakyapuri----(chanakyapuri, indiagate, 0). time taken is 28 units.
+** Chose shaktimaan to service the customer request***
+Path of customer: (chanakyapuri, indiagate, 0)----chanakyapuri, chanakyapuri----(chanakyapuri, AIIMS, 19). time taken is 19 units.
+
+
+
+At time 60, superman chooses a new destination chanakyapuri
+
+
+
+action to be performed: customer AIIMS lajpatnagar 0 lajpatnagar AIIMS 0 70
+Available Taxis:
+Path of shaktimaan: (chanakyapuri, AIIMS, 18)----AIIMS, AIIMS----(chanakyapuri, AIIMS, 19).
+(chanakyapuri, AIIMS, 19)----AIIMS, AIIMS----(AIIMS, lajpatnagar, 0). time taken is 2 units.
+Path of batman: (chanakyapuri, iitmaingate, 35)----iitmaingate, AIIMS----(AIIMS, lajpatnagar, 0). time taken is 45 units.
+Path of superman: (AIIMS, chanakyapuri, 10)----AIIMS, AIIMS----(AIIMS, lajpatnagar, 0). time taken is 10 units.
+** Chose shaktimaan to service the customer request***
+Path of customer: (AIIMS, lajpatnagar, 0)----AIIMS, lajpatnagar----(lajpatnagar, AIIMS, 0). time taken is 15 units.
+
+
+
+At time 80, superman chooses a new destination iitmaingate
+At time 85, batman chooses a new destination indiagate
+At time 87, shaktimaan chooses a new destination AIIMS
+At time 102, shaktimaan chooses a new destination chanakyapuri
+At time 122, shaktimaan chooses a new destination iitmaingate
+At time 130, superman chooses a new destination indiagate
+At time 145, batman chooses a new destination lajpatnagar
+
+
+
+action to be performed: printTaxiPosition 149
+
+shaktimaan: (chanakyapuri, iitmaingate, 27)
+batman: (indiagate, AIIMS, 4)
+superman: (iitmaingate, AIIMS, 19)
+
+
+
+
+
+
+action to be performed: customer lajpatnagar indiagate 0 indiagate lajpatnagar 1 150
+Available Taxis:
+Path of shaktimaan: (chanakyapuri, iitmaingate, 28)----iitmaingate, lajpatnagar----(lajpatnagar, indiagate, 0). time taken is 62 units.
+Path of batman: (indiagate, AIIMS, 5)----AIIMS, lajpatnagar----(lajpatnagar, indiagate, 0). time taken is 40 units.
+Path of superman: (iitmaingate, AIIMS, 20)----AIIMS, lajpatnagar----(lajpatnagar, indiagate, 0). time taken is 25 units.
+** Chose superman to service the customer request***
+Path of customer: (lajpatnagar, indiagate, 0)----lajpatnagar, AIIMS, indiagate----(indiagate, lajpatnagar, 1). time taken is 46 units.
+
+
+
+
+
+
+action to be performed: customer lajpatnagar iitmaingate 0 iitmaingate lajpatnagar 0 150
+Available Taxis:
+Path of shaktimaan: (chanakyapuri, iitmaingate, 28)----iitmaingate, lajpatnagar----(lajpatnagar, iitmaingate, 0). time taken is 62 units.
+Path of batman: (indiagate, AIIMS, 5)----AIIMS, lajpatnagar----(lajpatnagar, iitmaingate, 0). time taken is 40 units.
+Path of superman: (iitmaingate, AIIMS, 20)----AIIMS, indiagate----(indiagate, lajpatnagar, 1).
+(indiagate, lajpatnagar, 1)----indiagate, AIIMS, lajpatnagar----(lajpatnagar, iitmaingate, 0). time taken is 117 units.
+** Chose batman to service the customer request***
+Path of customer: (lajpatnagar, iitmaingate, 0)----lajpatnagar, iitmaingate----(iitmaingate, lajpatnagar, 0). time taken is 40 units.
+
+
+
+
+
+
+action to be performed: printTaxiPosition 151
+
+shaktimaan: (chanakyapuri, iitmaingate, 29)
+batman: (indiagate, AIIMS, 6)
+superman: (iitmaingate, AIIMS, 21)
+
+
+
+
+
+
+action to be performed: customer indiagate AIIMS 0  AIIMS indiagate 0 170
+Available Taxis:
+Path of shaktimaan: (chanakyapuri, iitmaingate, 48)----iitmaingate, AIIMS, indiagate----(indiagate, AIIMS, 0). time taken is 62 units.
+Path of batman: (indiagate, AIIMS, 25)----AIIMS, iitmaingate----(iitmaingate, lajpatnagar, 0).
+(iitmaingate, lajpatnagar, 0)----iitmaingate, AIIMS, indiagate----(indiagate, AIIMS, 0). time taken is 120 units.
+Path of superman: (indiagate, lajpatnagar, 10)----indiagate, indiagate----(indiagate, lajpatnagar, 1).
+(indiagate, lajpatnagar, 1)----indiagate, indiagate----(indiagate, AIIMS, 0). time taken is 52 units.
+** Chose superman to service the customer request***
+Path of customer: (indiagate, AIIMS, 0)----indiagate, AIIMS----(AIIMS, indiagate, 0). time taken is 30 units.
+
+
+
+
+
+
+action to be performed: printTaxiPosition 171
+
+shaktimaan: (chanakyapuri, iitmaingate, 49)
+batman: (indiagate, AIIMS, 26)
+superman: (indiagate, lajpatnagar, 9)
+
+
+
+At time 172, shaktimaan chooses a new destination indiagate
+At time 230, batman chooses a new destination indiagate
+At time 232, shaktimaan chooses a new destination lajpatnagar
+At time 252, superman chooses a new destination chanakyapuri
+At time 272, superman chooses a new destination iitmaingate
+At time 277, shaktimaan chooses a new destination AIIMS
+At time 290, batman chooses a new destination lajpatnagar
+At time 292, shaktimaan chooses a new destination chanakyapuri
+At time 312, shaktimaan chooses a new destination iitmaingate
+At time 322, superman chooses a new destination indiagate
+At time 335, batman chooses a new destination AIIMS
+At time 350, batman chooses a new destination chanakyapuri
+At time 362, shaktimaan chooses a new destination indiagate
+At time 370, batman chooses a new destination iitmaingate
+At time 382, superman chooses a new destination lajpatnagar
+
+
+
+action to be performed: printTaxiPosition 400
+
+shaktimaan: (AIIMS, indiagate, 8)
+batman: (chanakyapuri, iitmaingate, 30)
+superman: (indiagate, AIIMS, 18)
